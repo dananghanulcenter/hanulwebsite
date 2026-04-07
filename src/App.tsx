@@ -440,7 +440,7 @@ export default function App() {
             <div className="flex items-center gap-3">
               {/* Logo placeholder - using input_file_0.png as guessed path */}
               <img 
-                src="/input_file_0.png" 
+                src="/Logo.png" 
                 alt="Hanul Logo" 
                 className="h-14 w-auto object-contain"
                 onError={(e) => {
