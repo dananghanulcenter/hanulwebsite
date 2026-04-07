@@ -439,15 +439,14 @@ export default function App() {
           <div className="flex justify-between h-20 items-center">
             <div className="flex items-center gap-3">
               {/* Logo placeholder - using input_file_0.png as guessed path */}
-              < 
-                src="Logo.png" 
-                alt="Hanul Logo" 
-                className="h-14 w-auto object-contain"
-                onError={(e) => {
-                  // Fallback if logo not found
-                  (e.target as HTMLImageElement).src = "https://picsum.photos/seed/hanul-logo/200/200";
-                }}
-              />
+              <img
+  src="Logo.png"
+  alt="Hanul Logo"
+  className="h-14 w-auto object-contain"
+  onError={(e) => {
+    (e.target as HTMLImageElement).src = "https://picsum.photos/seed/hanul-logo/200/200";
+  }}
+/>
               <div className="flex flex-col">
                 <span className="font-black tracking-tighter text-2xl leading-none text-red-600">HANUL</span>
                 <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-blue-600">TAEKWONDO ĐÀ NẴNG</span>
