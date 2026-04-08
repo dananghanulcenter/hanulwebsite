@@ -544,7 +544,7 @@ export default function App() {
                 <img 
                   src="1.png" 
                   alt="Taekwondo Class Action" 
-                  className="w-full h-auto object-cover"
+                  className="w-full h-auto object-cover scale-150 transform origin-center"
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-60"></div>
