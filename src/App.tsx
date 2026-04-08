@@ -484,7 +484,7 @@ export default function App() {
         </div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+          <div className="lg:grid lg:grid-cols-[1fr_1.5fr] lg:gap-16 items-center">
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
